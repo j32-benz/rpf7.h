@@ -1,4 +1,4 @@
-# RPF7 Library
+# RPF7.h
 
 ## Overview
 The **RPF7** library is a C utility designed for parsing RPF7 archives, retrieving file and directory entries, and constructing hierarchical directory structures.
