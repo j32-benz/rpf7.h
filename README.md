@@ -1,7 +1,7 @@
 # RPF7 Library
 
 ## Overview
-The **RPF7** library is a simple C-based utility for reading and handling RPF7 archive files. It provides functions to read headers, parse file entries, and build a directory tree structure for managing directories and files within an RPF7 archive.
+The **RPF7** library is a C utility designed for parsing RPF7 archives, retrieving file and directory entries, and constructing hierarchical directory structures.
 
 ## Features
 - Parse RPF7 archive headers and entries.
