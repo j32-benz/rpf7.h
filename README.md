@@ -25,9 +25,5 @@ The **RPF7** library is a C utility designed for parsing RPF7 archives, retrievi
 - **File extraction**: Implement functionality to extract file contents based on the file's offset and size in the archive.
 - **NG encryption/decryption**: Support for decrypting archives encrypted with the NG encryption method.
 
-## Notes
-- Ensure the provided data buffer is large enough to contain the full archive before parsing.
-- Directory and file entries are organized as linked lists within the directory tree.
-
 ## License
 This library is released under the MIT License.
