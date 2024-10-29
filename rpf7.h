@@ -51,7 +51,7 @@ typedef struct rpf7_directory_node {
 } rpf7_directory_node;
 
 static uint32_t
-rpf7_read_u24_le(const uint8_t bytes[3])
+read_u24_le(const uint8_t bytes[3])
 {
     return ((uint32_t)bytes[0]) |
         ((uint32_t)bytes[1] << 8) |
@@ -61,7 +61,7 @@ rpf7_read_u24_le(const uint8_t bytes[3])
 static int
 rpf7_is_directory(const rpf7_rpf_entry* entry)
 {
-    return (rpf7_read_u24_le(entry->offset) == 0x7FFFFF);
+    return (read_u24_le(entry->offset) == 0x7FFFFF);
 }
 
 static int
@@ -154,7 +154,7 @@ rpf7_build_directory_tree(rpf7_rpf_entry* entries, char* names_buffer, uint32_t 
 
             file->name = strdup(name);
             file->size = entry->file.size;
-            file->offset = rpf7_read_u24_le(entry->offset);
+            file->offset = read_u24_le(entry->offset);
             file->next = NULL;
 
             if (last_file) {
