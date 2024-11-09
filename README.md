@@ -1,7 +1,7 @@
 # RPF7.h
 
 ## Overview
-The **RPF7** library is a C header designed for parsing RPF7 archives, retrieving file and directory entries, and constructing hierarchical directory structures.
+The **RPF7** library is a single header library designed for parsing RPF7 archives, retrieving file and directory entries, and constructing hierarchical directory structures.
 
 ## Features
 - Parse RPF7 archive headers and entries.
