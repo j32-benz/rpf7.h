@@ -8,7 +8,7 @@ The **RPF7** library is a single header library designed for parsing RPF7 archiv
 - Build a hierarchical directory tree from file and directory entries.
 - Memory management functions for efficient allocation and deallocation.
 
-## API Functions
+## Functions
 - **`rpf7_read_header`**: Reads the RPF7 header, entries, and names data from a binary buffer.
 - **`rpf7_build_directory_tree`**: Constructs a directory tree based on parsed entries.
 - **`rpf7_free_directory_tree`**: Frees the memory used by the directory tree.
